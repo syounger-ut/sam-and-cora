@@ -1,0 +1,48 @@
+.box-container {
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  .box {
+    width: 10rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 0.2rem 0.3rem 0.5rem 0rem lighten($secondary-color, 70%);
+    a {
+      display: block;
+    }
+    &:hover {
+      box-shadow: 0.2rem 0.3rem 1rem 0rem lighten($secondary-color, 40%);
+      cursor: pointer;
+      a {
+        animation-duration: 0.5s;
+        animation-name: spin;
+        animation-iteration-count: 1;
+      }
+    }
+  }
+  .box-link {
+    width: 10rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin: 1rem;
+    a {
+      padding: 0.5rem;
+      &:hover {
+        border-bottom: 1px solid $secondary-color;
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotateX(0deg); }
+  50% { transform: rotateX(90deg); }
+  100% { transform: rotateX(0deg); }
+}
