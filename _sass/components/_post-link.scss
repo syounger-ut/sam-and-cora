@@ -1,0 +1,16 @@
+.post-links {
+  display: inline-grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100%;
+  .link {
+    margin: 0 0.1rem;
+    box-shadow: 0.1rem 0.2rem 0.5rem 0rem lighten($secondary-color, 70%);
+    &:hover {
+      box-shadow: 0.1rem 0.2rem 0.5rem 0rem lighten($secondary-color, 40%);
+    }
+    a {
+      display: block;
+      padding: 0.5rem;
+    }
+  }
+}
