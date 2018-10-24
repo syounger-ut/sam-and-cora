@@ -1,0 +1,14 @@
+.images-tile {
+  #selected-image {
+    max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .image-thumbnails {
+    max-width: 100%;
+    img {
+      width: 5rem;
+    }
+  }
+}
