@@ -1,0 +1,30 @@
+.wedding {
+  #post {
+    h2, h3, h4, h5 {
+      text-align: left;
+      clear: both;
+    }
+    .post-image-container {
+      max-width: 25rem;
+      &:nth-child(even) {
+        float: left;
+        margin-right: 0.5rem;
+      }
+      &:nth-child(odd) {
+        float: right;
+        margin-left: 0.5rem;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    a {
+      border: 1px solid lighten($secondary-color, 80%);
+      background: lighten($secondary-color, 90%);
+      padding: 0.1rem 0.2rem;
+      &:hover {
+        background: lighten($secondary-color, 98%);
+      }
+    }
+  }
+}

@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5 {
 p, a {
   font-family: $body-font-stack;
   font-weight: 300;
+  line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, a {
@@ -12,9 +13,14 @@ h1, h2, h3, h4, h5, a {
   user-select: none;
 }
 
+h2, h3, h4, h5 {
+  padding: 1rem 0 0.5rem 0;
+}
+
 // DEFAULT HIGHLIGHT COLOR
 ::selection {
-  background: $primary-color;
+  background: lighten($secondary-color, 90%);
+  color: $secondary-color;
 }
 
 h1 {
@@ -23,27 +29,27 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3rem;
-}
-
-h4 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
 h5 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
   font-size: 1rem;
-  margin: 0.5rem 0;
 }
 
 a {
+  text-align: center;
   text-decoration: none;
   color: $secondary-color;
 }
