@@ -11,6 +11,9 @@ layout: post
 
       {{ content }}
 
+      {% if page.comments %}
+        {% include post/comments.html %}
+      {% endif %}
     </section>
   </body>
 </html>
