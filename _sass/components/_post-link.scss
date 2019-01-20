@@ -1,10 +1,11 @@
 .post-links {
-  display: inline-grid;
-  grid-template-columns: repeat(10, 1fr);
+  // display: inline-grid;
+  // grid-template-columns: repeat(10, 1fr);
   width: 100%;
   border-bottom: 1px solid lighten($secondary-color, 70%);
   padding: 0 0 1rem 0;
   .link {
+    display: inline-block;
     margin: 0 0.1rem;
     box-shadow: 0.1rem 0.2rem 0.5rem 0rem lighten($secondary-color, 70%);
     &:hover {
@@ -12,7 +13,7 @@
     }
     a {
       display: block;
-      padding: 0.5rem;
+      padding: 0.5rem !important;
     }
   }
 }

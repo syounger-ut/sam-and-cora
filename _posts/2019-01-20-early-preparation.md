@@ -11,7 +11,13 @@ It was really worthwhile spending a lot of time on this stage and allowed us to 
 
 <h2 id="vision">Vision</h2>
 
-Creating the vision for our wedding day was definitely my favourite part of the planning process. It was the time where we let our imagination run free and I was able to release some pent-up creativity I had. As with most people in 2017/18 we primarily used Pinterest to save all our favourite ideas and to create the Vision Board to set the mood for our day.
+Creating the vision for our wedding day was definitely my favourite part of the planning process. It was the time where we let our imagination run free and I was able to release some pent-up creativity I had. As with most people in 2017/18 we primarily used [Pinterest](https://www.pinterest.co.uk/barrett8481/wedding/) to save all our favourite ideas and to create the Vision Board to set the mood for our day.
+
+<div class="post-image-container">
+  <img class="post-image" src="/assets/images/wedding/pinterest.png"/>
+</div>
+
+> developing a vision together and making compromises will ensure that both parties retain interest and enthusiasm throughout the planning stage
 
 Before you start your board my main piece of advice to to remember that the wedding is both of your day. If you don’t want to bear the burden of planning the wedding alone then it is important to start as you mean to go on and ensure at this stage you develop the vision and plan for your day together. We all know it’s easy to lose motivation to do something that you either don’t like or don’t feel is necessary and so make sure you are listening to each other and be open to new ideas. From my experience, developing a vision together and making compromises will ensure that both parties retain interest and enthusiasm throughout the planning stage.
 
@@ -21,9 +27,11 @@ Reviewing the board a theme naturally emerged; we had picked a lot of images wit
 
 <h2 id="budgeting">Budgeting and Management</h2>
 
-Once we had developed our vision we started to get to the serious side of early stage wedding planning: budgeting and setting out tasks. We used Google Sheets to create a shared budget tracker and Trello to set out actions and progress. These applications are available to use on all your devices and so they are easy to keep track of, update and collaborate.
+Once we had developed our vision we started to get to the serious side of early stage wedding planning: budgeting and setting out tasks. We used [Google Sheets](https://www.google.com/sheets/about/) to create a shared budget tracker and [Trello](https://trello.com/) to set out actions and progress. These applications are available to use on all your devices and so they are easy to keep track of, update and collaborate.
 
-[PHOTO GOES HERE](http://foo.com)
+<div class="post-image-container">
+  <img class="post-image" src="/assets/images/wedding/trello.png"/>
+</div>
 
 We started our budget by setting out each individual component of the wedding and allocating a target budget for it. On Trello we the set out a task card for each component identified on the budget sheet and tracked fee quotes, bookings and follow-up actions to ensure each element was covered. Each wedding is individual, but broadly the main components we planned for were as follows:
 - Venue for marriage

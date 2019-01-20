@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5 {
   font-family: $header-font-stack;
 }
 
-p, a {
+p, a, li {
   font-family: $body-font-stack;
   font-weight: 300;
   line-height: 1.5rem;
@@ -46,6 +46,7 @@ h5 {
 
 p {
   font-size: 1rem;
+  margin: 0.5rem 0;
 }
 
 a {

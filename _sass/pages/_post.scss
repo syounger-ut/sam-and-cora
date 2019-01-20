@@ -26,5 +26,18 @@
         background: lighten($secondary-color, 98%);
       }
     }
+    li {
+      list-style: inside;
+      margin-left: 1rem;
+    }
+    blockquote {
+      background: lighten($secondary-color, 80%);
+      margin-left: 1rem;
+      &:before {
+        color: $secondary-color;
+        content: "\201C";
+        font-size: 4rem;
+      }
+    }
   }
 }
