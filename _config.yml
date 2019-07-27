@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Where Sam & Cora store their public life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://samandcora.com"
-twitter_username: ayoungersage
+twitter_username: ayoungersam
 github_username:  samyounger
 
 # Build settings
