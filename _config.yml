@@ -24,8 +24,7 @@ exclude:
 
 # Default layouts for pages
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -33,3 +32,15 @@ defaults:
       comments: true
       author: "Sam Younger"
       published: true
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+  - scope:
+      path: "assets/images/posts"
+    values:
+      post-image: true
+  - scope:
+      path: "assets/images/wedding"
+    values:
+      wedding-image: true

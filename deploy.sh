@@ -6,7 +6,7 @@ echo "Removing the .html extension from all html files, for S3 routing urls with
 export DEPLOY_DIR="_site"
 
 for filename in $DEPLOY_DIR/*.html; do
-  if [ $filename != "$DEPLOY_DIR/index.html" ] && [ $filename != "$DEPLOY_DIR/404.html" ] ;
+  if [ $filename != "$DEPLOY_DIR/index.html" ] && [ $filename != "$DEPLOY_DIR/error.html" ] ;
   then
     original="$filename"
 
@@ -16,7 +16,7 @@ for filename in $DEPLOY_DIR/*.html; do
     filename="${filename%.*}"
 
     # Move it
-    mv $original $DEPLOY_DIR/$filename
+    mv $original "${DEPLOY_DIR}/${filename}/index.html"
   fi
 done
 

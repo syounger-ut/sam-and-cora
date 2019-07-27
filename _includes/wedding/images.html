@@ -2,10 +2,9 @@
   <h2>Some snaps from the day</h2>
   <img id="selected-image" src="/assets/images/wedding/wedding1.jpg"/>
   <div class="image-thumbnails">
-    {% for image in site.static_files %}
-        {% if image.path contains 'images/wedding' %}
-            <img class="thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-        {% endif %}
+    {% assign image_files = site.static_files | where: "wedding-image", true %}
+    {% for image in image_files %}
+      <img class="thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endfor %}
   </div>
 </section>

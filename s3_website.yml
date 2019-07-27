@@ -14,8 +14,8 @@ cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
 
 # site: path-to-your-website
 
-# index_document: index.html
-# error_document: error.html
+index_document: index.html
+error_document: error.html
 
 # max_age:
 #   "assets/*": 6000
